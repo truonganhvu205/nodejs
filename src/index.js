@@ -1,3 +1,6 @@
+// Vu Truong Anh
+// truonganhvu205@gmail.com
+
 const express = require('express')
 const morgan = require('morgan')
 const { engine } = require('express-handlebars')
