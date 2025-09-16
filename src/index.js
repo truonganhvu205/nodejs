@@ -10,6 +10,10 @@ const app = express()
 
 app.use(morgan('combined'))
 
+// middleware
+app.use(express.urlencoded({extended: true}))
+app.use(express.json())
+
 app.engine('.hbs', engine({extname: '.hbs'}))
 app.set('view engine', '.hbs')
 app.set('views', path.join(__dirname, './resources/views'))
