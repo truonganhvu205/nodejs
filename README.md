@@ -11,7 +11,7 @@ npm i sass --save-dev
 
 ```
 "scripts": {
-...."start": "nodemon --inspect src/index.js",
-...."watch": "sass src/resources/scss:src/public/css --watch",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "sass src/resources/scss:src/public/css --watch",
 },
 ```
