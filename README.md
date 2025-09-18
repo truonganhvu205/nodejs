@@ -5,6 +5,7 @@ npm init
 
 npm i express
 npm i epress-handlebars
+npm i mongoose
 
 npm i nodemon --save-dev
 npm i morgan --save-dev
